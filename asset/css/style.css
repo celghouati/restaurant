@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body {
+  margin-right: 0;
+  margin-left: 0; }
+  body a {
+    text-decoration: none; }
+  body header {
+    min-height: 750px;
+    background-image: url("../image/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    body header #blockmarge {
+      margin-left: 11%;
+      margin-right: 11%;
+      text-decoration: none; }
+      body header #blockmarge nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; }
+        body header #blockmarge nav #logo #textemenu #menuhorizontal {
+          display: inline;
+          list-style-type: none;
+          /* enlever les puces de l'élément "liste à puce" */
+          text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
